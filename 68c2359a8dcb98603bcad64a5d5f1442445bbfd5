@@ -1,0 +1,7 @@
+Verified+1: rdo-ci-jenkins <whayutin+rdocijenkins@redhat.com>
+Code-Review+2: Miguel Ángel Ajo <mangelajo@redhat.com>
+Submitted-by: Ihar Hrachyshka <ihrachys@redhat.com>
+Submitted-at: Wed, 11 Nov 2015 09:55:09 +0100
+Reviewed-on: https://review.gerrithub.io/251798
+Project: openstack-packages/python-networking-odl
+Branch: refs/heads/rpm-master
