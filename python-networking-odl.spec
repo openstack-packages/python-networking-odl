@@ -6,7 +6,7 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 
 Name:           python-%{pkgname}
-Version:        1.0.1
+Version:        2.0.0
 Release:        1%{?dist}
 Epoch:          1
 Summary:        %{drv_vendor} OpenStack Neutron driver
@@ -72,5 +72,8 @@ chmod 640 %{buildroot}%{_sysconfdir}/neutron/plugins/*/*.ini
 
 
 %changelog
+* Wed May 25 2016 oshvartz <oshvartz@redhat.com> 1:2.0.0-1
+- Update to 2.0.0
+
 * Tue Nov 10 2015 Ihar Hrachyshka <ihrachys@redhat.com> 1:1.0.1-1
 - Initial build
